@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ideias em Movimento - IFCE</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f1eb;
+            color: #333333;
+            margin: 0;
+        }
+
+        header {
+            background-color: #493548;
+            color: white;
+            padding: 30px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #f3c969;
+            font-size: 36px;
+            text-align: center;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            color: white;
+            text-align: center;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        nav {
+            background-color: #b56576;
+            padding: 15px;
+        }
+
+        nav ul {
+            text-align: center;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline-block;
+            margin: 10px;
+        }
+
+        .menu {
+            color: white;
+            text-decoration: none;
+        }
+
+        .menu:hover {
+            color: #ffe8a3;
+        }
+
+        section {
+            background-color: white;
+            padding: 20px;
+            margin: 20px;
+            border: 2px solid #d8c9d0;
+        }
+
+        section h2 {
+            font-size: 24px;
+            color: #493548;
+        }
+
+        #sobre p {
+            text-align: justify;
+        }
+
+        img {
+            width: 400px;
+            height: 250px;
+            border: 3px solid #b56576;
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            box-sizing: border-box;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #b56576;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #493548;
+            color: white;
+        }
+
+        .box {
+            width: 300px;
+            height: 180px;
+            padding: 20px;
+            margin: 15px;
+            border: 3px solid;
+            display: block;
+            overflow: auto;
+        }
+
+        #box1 {
+            background-color: lightblue;
+            border-color: darkblue;
+            border-radius: 0px;
+        }
+
+        #box2 {
+            background-color: #d4f0d2;
+            border-color: green;
+            border-radius: 15px;
+        }
+
+        #box3 {
+            background-color: #ffd6d6;
+            border: 5px solid purple;
+            border-radius: 30px;
+            border-top-left-radius: 0px;
+        }
+
+        #box1 h3 {
+            color: darkblue;
+            font-weight: bold;
+        }
+
+        #box2 h3 {
+            color: green;
+            font-weight: bold;
+        }
+
+        #box3 h3 {
+            color: purple;
+            font-weight: bold;
+        }
+
+        #inscricoes a {
+            color: #b56576;
+        }
+
+        footer {
+            background-color: #493548;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        @media (max-width: 500px) {
+            h1 {
+                font-size: 28px;
+            }
+
+            nav li {
+                margin: 8px;
+            }
+
+            section {
+                margin: 10px;
+                padding: 15px;
+            }
+
+            .box {
+                width: auto;
+                margin: 15px 0;
+            }
+
+            table {
+                font-size: 13px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Ideias em Movimento</h1>
+        <p>Semana de Criatividade, Tecnologia e Cultura</p>
+        <p>IFCE Campus Maranguape</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#sobre" class="menu">Sobre</a></li>
+            <li><a href="#programacao" class="menu">Programação</a></li>
+            <li><a href="#atividades" class="menu">Atividades</a></li>
+            <li><a href="#inscricoes" class="menu">Inscrições</a></li>
+        </ul>
+    </nav>
+
+    <section id="sobre">
+        <h2>Sobre o Evento</h2>
+
+        <p>
+            O Ideias em Movimento é uma semana dedicada a estudantes
+            que gostam de descobrir coisas novas e transformar ideias
+            em projetos. O evento aproxima a tecnologia da vida
+            cotidiana e mostra que a criatividade também faz parte
+            da construção do conhecimento.
+        </p>
+
+        <p>
+            A programação reúne experiências digitais, desafios
+            criativos e atividades culturais. Os participantes poderão
+            aprender com outros estudantes, compartilhar descobertas
+            e conhecer maneiras diferentes de utilizar a tecnologia.
+        </p>
+
+        <img
+            src="img/evento.png" alt="Evento Ideias em Movimento">
+    </section>
+
+    <section id="programacao">
+        <h2>Programação</h2>
+
+        <table>
+            <tr>
+                <th>Horário</th>
+                <th>Atividade</th>
+                <th>Local</th>
+            </tr>
+
+            <tr>
+                <td>08:00 - 09:00</td>
+                <td>Boas-vindas e apresentação das ideias</td>
+                <td>Auditório</td>
+            </tr>
+
+            <tr>
+                <td>09:15 - 11:00</td>
+                <td>Laboratório de Criação Digital</td>
+                <td>Laboratório de Informática</td>
+            </tr>
+
+            <tr>
+                <td>13:30 - 15:00</td>
+                <td>Desafio: Soluções para o Campus</td>
+                <td>Sala 02</td>
+            </tr>
+
+            <tr>
+                <td>15:30 - 17:00</td>
+                <td>Mostra de Arte e Cultura</td>
+                <td>Pátio</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="atividades">
+        <h2>Atividades</h2>
+
+        <div class="box" id="box1">
+            <h3>Laboratório de Criação</h3>
+            <p>
+                Explore ferramentas digitais e desenvolva uma
+                pequena ideia para apresentar aos participantes.
+            </p>
+            <a href="https://www.ifce.edu.br/">Mais informações</a>
+        </div>
+
+        <div class="box" id="box2">
+            <h3>Desafio do Campus</h3>
+            <p>
+                Pense em soluções criativas para melhorar algum
+                aspecto da rotina dos estudantes.
+            </p>
+            <a href="https://www.ifce.edu.br/">Mais informações</a>
+        </div>
+
+        <div class="box" id="box3">
+            <h3>Galeria de Novas Ideias</h3>
+            <p>
+                Conheça trabalhos que combinam arte, cultura
+                e recursos tecnológicos.
+            </p>
+            <a href="https://www.ifce.edu.br/">Mais informações</a>
+        </div>
+    </section>
+
+    <section id="inscricoes">
+        <h2>Inscrições</h2>
+
+        <p>
+            Os estudantes interessados devem acompanhar as orientações
+            divulgadas pela instituição para conhecer os procedimentos
+            de participação no evento.
+        </p>
+
+        <p>
+            Para obter informações, acesse o
+            <a href="https://www.ifce.edu.br/" target="_blank">
+                site oficial do IFCE
+            </a>.
+        </p>
+    </section>
+
+    <footer>
+        <p>Instituto Federal do Ceará - Campus Maranguape</p>
+        <p>Responsável pela página: Sara Raquel Matos Gonçalves.</p>
+    </footer>
+
+</body>
+</html>
